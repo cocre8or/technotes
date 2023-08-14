@@ -56,15 +56,15 @@ For what it's worth, a Dictionary is a hash table.
 Dictionary is a generic type, Hash table is not. That means you get type safety with Dictionary, because you can't insert any random object into it, and you don't have to cast the values you take out.
 
 ## Sets
--- Unordered collection of objects - no index and no key
--- Rules - they do not allow duplicates
--- They allow very fast look up
+- Unordered collection of objects - no index and no key
+- Rules - they do not allow duplicates
+- They allow very fast look up
 -- Only Reason to use is to check for membership
 
 ## Graph
-A **graph** is a specified set of nodes(vertices) V and edges E between select pairs of vertices.
- `G = (V, E)`
- `V = {1,2,3}`
+A **graph** is a specified set of nodes(vertices) V and edges E between select pairs of vertices.<br>
+ `G = (V, E)` <br>
+ `V = {1,2,3}` <br>
  `E = {1,2}, {3,4}` undirected graph bidirectional vs `E = (1,2)` directed graph
 
 ## Tree
@@ -75,15 +75,15 @@ Binary trees can only have up to 2 linking child nodes .i.e. left and right node
 
 ## Integers
 ### Based on Microsoft C#
-• The sbyte type represents signed 8-bit integers with values between –128 and 127.
-• The byte type represents unsigned 8-bit integers with values between 0 and 255.
-• The short type represents signed 16-bit integers with values between –32768 and 32767.
-• The ushort type represents unsigned 16-bit integers with values between 0 and 65535.
-• The int type represents signed 32-bit integers with values between –2147483648 and 2147483647.
-• The uint type represents unsigned 32-bit integers with values between 0 and 4294967295.
-• The long type represents signed 64-bit integers with values between –9223372036854775808 and 9223372036854775807.
-• The ulong type represents unsigned 64-bit integers with values between 0 and 18446744073709551615.
-• The char type represents unsigned 16-bit integers with values between 0 and 65535. The set of possible values for the char type corresponds to the Unicode character set. Although char has the same representation as ushort, not all operations permitted on one type are permitted on the other.
+- The sbyte type represents signed 8-bit integers with values between –128 and 127.
+- The byte type represents unsigned 8-bit integers with values between 0 and 255.
+- The short type represents signed 16-bit integers with values between –32768 and 32767.
+- The ushort type represents unsigned 16-bit integers with values between 0 and 65535.
+- The int type represents signed 32-bit integers with values between –2147483648 and 2147483647.
+- The uint type represents unsigned 32-bit integers with values between 0 and 4294967295.
+- The long type represents signed 64-bit integers with values between –9223372036854775808 and 9223372036854775807.
+- The ulong type represents unsigned 64-bit integers with values between 0 and 18446744073709551615.
+- The char type represents unsigned 16-bit integers with values between 0 and 65535. The set of possible values for the char type corresponds to the Unicode character set. Although char has the same representation as ushort, not all operations permitted on one type are permitted on the other.
 
 ## Floats, Double, Decimal
 
@@ -100,9 +100,9 @@ Although computers use binary and other systems, they use the decimal system or 
 ### Value types
 A variable holds actual values. These value types are stored in “stack” memory and these value types are fixed in size. If you assign a value of a variable to another variable it will create two copies.
 Ex: byte, short, int, float, double, long ,char, bool, DateTime.
-	• Primitive data types are value types except string, object.
-	• Object type is superior to all types. It can store any type or any size of data. It helps in inheritance process.
-	• Struct, enum are value types.
+	- Primitive data types are value types except string, object.
+	- Object type is superior to all types. It can store any type or any size of data. It helps in inheritance process.
+	- Struct, enum are value types.
 
 ### Reference types
 A variable holds a reference to the value, then that type of data types are reference types. These reference types are stored in “heap” memory and these types are not fixed in size.  They are maintained in system managed heap but it also uses stack to store reference of the heap. Two primitive types (string and object) and non-primitive data types (class, interface & delegate) are examples of reference type.
