@@ -113,4 +113,3 @@ Let us learn couple of data types and its uses with example
 Boxing is the process of converting a value type to the type object or to any interface type implemented by this value type. 
 
 When the CLR boxes a value type, it wraps the value inside a System.Object and stores it on the managed heap. Unboxing extracts the value type from the object. Boxing is implicit; unboxing is explicit. The concept of boxing and unboxing underlies the C# unified view of the type system in which a value of any type can be treated as an object.
-In the following example, the integer variable i is boxed and assigned to object o.
