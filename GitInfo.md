@@ -31,8 +31,7 @@
 | Stage all new files or modified files | git add --all |
 | Get the latest of the branch project you are in | git pull |
 | Push files to origin | git push |
-| Commit staged files | git commit -a "Comment" |
-| Commit | a = files added to stage, m = modified files, d = deleted files |
+| Commit staged files | git commit -m "Comment" |
 | View history of commits | git log |
 | Create a new branch | git branch branch_name |
 | Checkout a branch | git checkout branch_name |
