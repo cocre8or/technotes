@@ -1,6 +1,6 @@
 # Algorithms
 
-?> **NOTE** This document will contain information about Computer Algorithms and Big O notation.
+**NOTE** This document will contain information about Computer Algorithms and Big O notation.
 
 ## Big O Notation
 
@@ -29,10 +29,10 @@ What is a divide and conquer algorithm?
 -	Divide and conquer solves problems by breaking a problem into smaller subproblems, recursively solving the subproblems and appropriately combining their answers.
 
 ### Binary search
--- The idea behind binary search is to split the search in half, thus the runtime would be O(log n)
+- The idea behind binary search is to split the search in half, thus the runtime would be O(log n)
 
 ### Merge Sort
--- The idea behind merge sort is .... todo O(n log n)
+- The idea behind merge sort is .... todo O(n log n)
 
 ## Dynamic Programming
 What is dynamic programming?
