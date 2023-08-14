@@ -4,7 +4,6 @@
   1. Install Git for [Windows](https://gitforwindows.org/), Mac OS should already have Git installed.
   
   2. Verify you have git installed by running this command in the terminal: `git --version`
-     
   3. Initialize your git config if you have not done so already. 
   -- Run `git config --global user.email "your-email"`
   -- Run `git config --global user.name "Your Name"`
