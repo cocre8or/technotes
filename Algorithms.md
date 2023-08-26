@@ -30,10 +30,10 @@ What is a divide and conquer algorithm?
 -	Divide and conquer solves problems by breaking a problem into smaller subproblems, recursively solving the subproblems and appropriately combining their answers.
 
 ### Binary search
-- The idea behind binary search is to split the search in half, thus the runtime would be O(log n)
+- The idea behind binary search is to split the search in half on an already sorted list/array, thus the runtime would be O(log n)
 
 ### Merge Sort
-- The idea behind merge sort is .... todo O(n log n)
+- The idea behind merge sort is to sort an unsorted list/array by splitting an array based on high and low values O(n log n)
 
 ## Dynamic Programming
 What is dynamic programming?
@@ -44,23 +44,35 @@ What is dynamic programming?
 -	The key feature of DP is reusing subproblems to solve the next subproblem
 -	The subproblem is in terms of a prefix or suffix of the input, thus, a[1..i] instead of a[1..n] where n is the total number of items and i is the number of items at the current subproblem.
 -	You want to create base cases after you identify your recurrence 
--	In DP you will be looking back at previously answer subproblems and the problem is always the same
+-	In DP you will be looking back at previously answered subproblems and the problem is always the same
 -	Major Types of DP problems LIS, LCS, Knapsack 0/1, Knapsack Unlimited, CMM
 
 
 ## Graph Algorithms
 
 ### Explore
+**Purpose**: Find all reachable nodes from a specific source node in any direct or undirected graph G=(V, E), vertices, and edges.<br>
+**Runtime**: O(n+m) where n = |V| and m = |E|
 
 ### Depth First Search - DFS
+**Purpose**: Determines and outputs connected components within any direct or undirected graph G=(V, E), vertices, and edges. It uses explore as a subroutine.<br>
+**Runtime**: O(n+m) where n = |V| and m = |E|
 
 ### SCC
+**Purpose**: Find cycles or strongly connected components within a directed graph G=(V, E), vertices and edges. Uses DFS twice.<br>
+**Runtime**: O(n+m) where n = |V| and m = |E|
 
 ### Topological Sort
+**Purpose**: Find the order of vertices in a DAG, directed acyclic graph. <br>
+**Runtime**: O(n+m) where n = |V| and m = |E|
 
-### Breadth First Search - BFS
+### Breadth-First Search - BFS
+**Purpose**: Find the minimum number of edges from vertex s to all other vertices. Uses a queue and infinity within the algorithm. <br>
+**Runtime**: O(n+m) where n = |V| and m = |E|
 
 ### Dijkstra single source shortest path algorithm
+**Purpose**: Find all shortest path(s) from a single source vertex in a connected or disconnected graph, only works on positive weights. Uses a queue and infinity within the algorithm.<br>
+**Runtime**: O(n+m log n) where n = |V| and m = |E|
 
 ### Bellman-Ford single source shortest path algorithm
 
