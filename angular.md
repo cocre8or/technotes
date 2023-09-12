@@ -11,6 +11,15 @@
 |**ng e2e** | Builds and serves an Angular application, then runs end-to-end tests. |
 
 ## Angular architecture
+1. Modules
+2. Components
+3. Templates
+4. Services
+5. Metadata
+6. Data binding
+7. Directives
+8. Dependency Injection
+   
 - **Components** are central to Angular architecture which includes
   - TypeScript class with **@Component** decorator, the Component also includes: An HTML selector, HTML Template using inline HTML or file path to the HTML, optional CSS style file
 - **Templates** which is HTML that allows dynamic values via {{ someValueFromTheComponent }}  syntax, it also allows Events via (event)="action()" syntax and Directives
