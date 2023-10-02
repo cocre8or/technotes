@@ -83,9 +83,9 @@
 
   |Term | Information |
   |-|-|
+   |JVM: Java Virtual Machine |JVM is the foundation, or the heart of Java programming language, and ensures the program’s Java source code will be platform-agnostic. JVM is *included* in **both** JDK and JRE – Java programs won’t run without it.|
   |JDK: Java Development Kit | Development platform including dev tools, JRE, javac, and JVM |
   |JRE: Java Runtime Environment |JRE executes Java Programs, includes JIT and JVM. |
-  |JVM: Java Virtual Machine |JVM is the foundation, or the heart of Java programming language, and ensures the program’s Java source code will be platform-agnostic. JVM is *included* in **both** JDK and JRE – Java programs won’t run without it.|
   |JIT: Just In Time Compiler | It is part of JVM and optimizes the conversion of bytecode to machine code.|
   |Javac | Another complementary tool, is a compiler that reads Java definitions and translates them into bytecode that can run on JVM|
   | Javadoc | Converts API documentation from Java source code to HTML. This is useful when creating standard documentation in HTML|
