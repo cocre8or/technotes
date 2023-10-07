@@ -1,4 +1,9 @@
 # Programming Languages and Ecosystems
+
+|Language | Runtime | Build Tool(s) | Package/Libary Management |Useful Frameworks | Server(s) |
+|C# | CLR or CoreCLR | MSBuild, ADO |  NuGet | .NET Framework or .NET Core, ASP.NET MVC | IIS |
+|Java | JVM | Maven, Gradle |  Maven, Gradle| .NET Framework or .NET Core, ASP.NET MVC | IIS |
+
 <details>
   <summary>
     C-Sharp
